@@ -1,0 +1,44 @@
+//? Основные цвета
+$white: #ffffff;
+$black: #000;
+// $primary: ;
+// $secondary: ;
+$accent: #1253b5;
+
+//? По умолчанию
+$base_fz: 1.6rem; //? Размер шрифта по умолчанию 16px
+$base_ff: "Ubuntu 400", sans-serif; //? Шрифт по умолчанию
+$base_hover: $accent; //? Цвет при наведении по умолчанию
+$base_bg: $white; //? Цвет фона по умолчанию
+$base_color: $black; //? Цвет текста по умолчанию
+
+//? Переменные семейств шрифтов
+$ff_R: "Roboto", sans-serif;
+
+//? Стиль шрифтов
+$I: italic;
+$O: oblique;
+
+//? Толщина семейства шрифтов
+$th: 100; // Thin
+$el: 200; // Extra Light
+$l: 300; // Light
+$r: 400; // Regular
+$m: 500; // Medium
+$sb: 600; // SemiBold
+$b: 700; // Bold
+$eb: 800; // Extra Bold
+$bl: 900; // Super
+
+//? Размеры
+$maxWidthContainer: 1920px; // Ширина контейнера (0 = нет ограничения)
+$minWidth: 320px; // Минимальная ширина страницы
+$containerPadding: 16px; // Отступы контейнера // (32 = по 16px слева и справа, 0 = нет отступа)
+$containerWidth: $maxWidthContainer + $containerPadding; // Ширина срабатывания первого брейкпоинта
+$headerHeight: 55px; // Высота отступа контента от header
+
+//? Брейк-поинты
+$pc: 1199px; // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
+$tablet: 992px; // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: 767px; // Телефоны L
+$mobileSmall: 320px; // Телефоны S
